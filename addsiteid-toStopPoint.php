@@ -2,7 +2,7 @@
 $all = file_get_contents('sl-gtfsid.csv');
 $all = preg_split('/\n/',$all);
 
-$sites = file_get_contents('sl-gtfsid.csv');
+$sites = file_get_contents('Sites.csv');
 $sites = preg_split('/\n/',$sites);
 $idlist = array();
 
