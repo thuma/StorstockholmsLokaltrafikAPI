@@ -1,0 +1,21 @@
+
+Allstops:
+http://sl.se/api/map/GetSitePoints/60.0/17.0/59.0/19.5/1,2,32,4,8,16
+
+Allsellers:
+http://sl.se/api/sv/Map/GetTicketVendors
+
+Zones polygon:
+http://sl.se/api/map/GetZoneData
+
+Comuter Parking: 
+http://sl.se/api/map/GetCommuterParking
+
+MySL Login:
+curl 'https://sl.se/api/MySL/Authenticate' -H 'Content-Type: application/json;charset=UTF-8' --data-binary '{"username":"usrrkg","password":"passwd7878"}'
+
+MySL allinfo:
+https://sl.se/api/ECommerse/GetShoppingCart
+
+MySL getcardinfo:
+curl 'https://sl.se/api/MySL/GetTravelCardDetails' -H 'Content-Type: application/json;charset=UTF-8' --data-binary '{"reference":"travel_card/999999"}'
